@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home | Combined Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@600;700&display=swap">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="header-grid">
+      <div class="logo-slot left" id="umak-logo"></div>
+      <div class="brand-center">
+        <h1 id="co-name"></h1>
+        <p class="sub">Organizational Communication</p>
+        <p class="sec" id="co-section"></p>
+      </div>
+      <div class="logo-slot right" id="company-logo"></div>
+    </div>
+    <svg class="member-line" id="member-line" viewBox="0 0 1200 6" role="img" aria-label="Decorative line made of our group members' names"></svg>
+  </div>
+  <div class="header-rule"></div>
+</header>
+
+<nav class="topnav" id="topnav" aria-label="Main navigation" hidden>
+  <div class="wrap"><ul id="topnav-list"></ul></div>
+</nav>
+
+<main id="main">
+<section class="page" data-page="home" aria-labelledby="home-h">
+  <div class="wrap">
+    <div class="intro">
+      <span class="label">Welcome</span>
+      <h2 id="home-h">Clear communication gives every organization a stronger voice.</h2>
+      <p id="home-intro"></p>
+      <div class="chips">
+        <span class="pill">Internal communication audits</span>
+        <span class="pill">Corporate messaging</span>
+        <span class="pill">Communication training</span>
+      </div>
+    </div>
+    <div class="home-grid">
+      <aside class="card side-nav" aria-label="Explore our company">
+        <span class="label">Explore our company</span>
+        <ul id="side-nav-list"></ul>
+      </aside>
+      <div class="video-col">
+        <div class="video-frame" id="video-frame"></div>
+        <div class="video-caption">
+          <span>Company introduction video (1 to 3 minutes)</span>
+          <span class="video-note" id="video-note" aria-live="polite"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><div class="mini" id="foot-logo"></div><div><strong id="foot-name"></strong><span>Corporate communication consultancy, Makati City</span></div></div>
+        <p style="margin-top:14px;max-width:44ch">We help organizations communicate with clarity through audits, messaging, training, and process guides.</p>
+      </div>
+      <div><h4>Explore</h4><ul id="foot-links"></ul></div>
+      <div><h4>Contact</h4><ul><li>University of Makati, J.P. Rizal Extension, West Rembo, Makati City</li><li>+63 912 345 6789</li><li>combined@example.com</li></ul></div>
+    </div>
+    <div class="legal"><span id="foot-legal"></span><span>Fictional company. Contact details are for a school project.</span></div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
